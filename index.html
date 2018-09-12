@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <img src="logo.jpg" alt=""> -->
+    <h1>Unit Converter</h1>
+<div class="container" data-tilt data-tilt-scale="1.1">
+    Enter Number
+        <input type="number" id="number1" data-tilt data-tilt-scale="1.4"required>
+        From
+        <select id="from" data-tilt data-tilt-scale="1.4">
+            <option value="inches">Inches</option>
+            <option value="cm">Centimeter</option>
+            <option value="feet">Feet</option>
+            <option value="yards">Yards</option>
+            <option value="meters">Meters</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="miles">Miles</option>
+        </select>
+        To
+        <select id="to" data-tilt data-tilt-scale="1.4">
+            <option value="inches">Inches</option>
+            <option value="cm">Centimeter</option>
+            <option value="feet">Feet</option>
+            <option value="yards">Yards</option>
+            <option value="meters">Meters</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="miles">Miles</option>
+        </select>
+        <span id="result"></span>
+        <button id="convert" data-tilt data-tilt-scale="1.5">Convert</button>
+        
+</div>
+    <script src="js/main.js"></script>
+    <script src="js/js-library.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    font-family: 'Skranji', cursive;
+}
+
+body {
+    animation-name: example;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: yellow;
+    }
+    20% {
+        background-color: blue;
+    }
+    30% {
+        background-color: green;
+    }
+    40% {
+        background-color: #45a3e5;
+    }
+    50% {
+        background-color: rgb(80, 240, 80);
+    }
+    60% {
+        background-color: rgb(233, 35, 233);
+    }
+    70% {
+        background-color: rgb(220, 243, 28);
+    }
+    80% {
+        background-color: rgb(23, 166, 248);
+    }
+    90% {
+        background-color: rgb(171, 110, 240);
+    }
+    100% {
+        background-color: rgb(26, 212, 125);
+    }
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    ;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.container:hover {
+    background-color: black;
+    color: white;
+}
+
+input,
+select {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+button {
+    margin-left: 100px;
+    height: 40px;
+    border: 1px solid black;
+    width: 90px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px grey;
+}
